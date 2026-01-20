@@ -9,6 +9,16 @@ This repository is a landing-page design lab. Optimize for visual quality, clari
 
 - Treat the current git branch name as the active baseline context (e.g. baseline/next-html-tailwind vs baseline/next-shadcn) and follow the stack implied by that branch.
 
+## Product & Conversion Context (Always On)
+
+- Business: Eco One Water, a residential water treatment services company.
+- Audience: Homeowners researching or ready to purchase water treatment systems.
+- Primary conversion goal: Book an in-home appointment for a free water test.
+- The free water test is the main offer and primary CTA.
+- Services include water softeners, filtration systems, reverse osmosis (point-of-use and whole-house), and well water treatment.
+- Design tone: minimal and premium.
+- The page must feel trustworthy and modern to encourage inviting a technician into the home.
+
 ## Scope constraints (hard rules)
 - Build ONLY marketing/landing page UI. No auth, no dashboards, no backend, no APIs, no CMS, no complex state.
 - No new dependencies unless the user explicitly approves.
@@ -20,7 +30,8 @@ This repository is a landing-page design lab. Optimize for visual quality, clari
 - Each variant should be mostly presentational and use semantic HTML.
 
 ## Styling constraints
-- Tailwind-only for baseline/html-tailwind unless explicitly told otherwise.
+- Tailwind-only for baseline/next-html-tailwind unless explicitly told otherwise.
+- Do not use shadcn/ui or Radix components on baseline/next-html-tailwind unless explicitly instructed.
 - Keep styles consistent: spacing scale, typography scale, and color tokens should not be random per section.
 - Prefer CSS-first layout solutions; avoid JS layout measurement.
 
