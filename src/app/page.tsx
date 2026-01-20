@@ -63,6 +63,14 @@ export default function Home() {
             Deploy Now
           </a>
         </div>
+        <div className="mt-4 flex flex-col gap-4 text-base font-medium sm:flex-row">
+          <a
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-indigo-600 px-5 text-white transition-colors hover:bg-indigo-700 md:w-auto"
+            href="/v3-palette-exploration"
+          >
+            Explore v3-palette-exploration
+          </a>
+        </div>
       </main>
     </div>
   );
