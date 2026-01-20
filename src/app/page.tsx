@@ -70,6 +70,12 @@ export default function Home() {
           >
             Explore v3-palette-exploration
           </a>
+          <a
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-slate-600 px-5 text-white transition-colors hover:bg-slate-700 md:w-auto"
+            href="/v4-mockup-implementation"
+          >
+            Explore v4-mockup-implementation
+          </a>
         </div>
       </main>
     </div>
