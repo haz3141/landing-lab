@@ -77,6 +77,14 @@ export default function Home() {
             Explore v4-mockup-implementation
           </a>
         </div>
+        <div className="mt-4 flex flex-col gap-4 text-base font-medium sm:flex-row">
+          <a
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[#355268] px-5 text-white transition-colors hover:bg-[#283E4F] md:w-auto"
+            href="/v5-style-pass"
+          >
+            Explore v5-style-pass
+          </a>
+        </div>
       </main>
     </div>
   );
