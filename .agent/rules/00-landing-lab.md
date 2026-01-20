@@ -7,6 +7,8 @@ trigger: always_on
 ## Mission
 This repository is a landing-page design lab. Optimize for visual quality, clarity, and iteration speed.
 
+- Treat the current git branch name as the active baseline context (e.g. baseline/next-html-tailwind vs baseline/next-shadcn) and follow the stack implied by that branch.
+
 ## Scope constraints (hard rules)
 - Build ONLY marketing/landing page UI. No auth, no dashboards, no backend, no APIs, no CMS, no complex state.
 - No new dependencies unless the user explicitly approves.
