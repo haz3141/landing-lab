@@ -2,6 +2,10 @@
 trigger: always_on
 ---
 
+---
+trigger: always_on
+---
+
 # Landing Lab Rule (Always On)
 
 ## Mission
@@ -10,7 +14,6 @@ This repository is a landing-page design lab. Optimize for visual quality, clari
 - Treat the current git branch name as the active baseline context (e.g. baseline/next-html-tailwind vs baseline/next-shadcn) and follow the stack implied by that branch.
 
 ## Product & Conversion Context (Always On)
-
 - Business: Eco One Water, a residential water treatment services company.
 - Audience: Homeowners researching or ready to purchase water treatment systems.
 - Primary conversion goal: Book an in-home appointment for a free water test.
@@ -18,6 +21,10 @@ This repository is a landing-page design lab. Optimize for visual quality, clari
 - Services include water softeners, filtration systems, reverse osmosis (point-of-use and whole-house), and well water treatment.
 - Design tone: minimal and premium.
 - The page must feel trustworthy and modern to encourage inviting a technician into the home.
+
+## Package manager (hard rule)
+- Use pnpm only. Never use npm commands (`npm install`, `npm run`, `npm test`, etc.).
+- All commands must be run via pnpm (e.g. `pnpm lint`, `pnpm build`).
 
 ## Scope constraints (hard rules)
 - Build ONLY marketing/landing page UI. No auth, no dashboards, no backend, no APIs, no CMS, no complex state.
