@@ -21,6 +21,7 @@ This repository is a landing-page design lab. Optimize for visual quality, clari
 - Services include water softeners, filtration systems, reverse osmosis (point-of-use and whole-house), and well water treatment.
 - Design tone: minimal and premium.
 - The page must feel trustworthy and modern to encourage inviting a technician into the home.
+- No brand color palette is predefined; do not assume or reuse colors from other projects. Choose a neutral, trust-oriented palette appropriate for a premium home services brand.
 
 ## Package manager (hard rule)
 - Use pnpm only. Never use npm commands (`npm install`, `npm run`, `npm test`, etc.).
