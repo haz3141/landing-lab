@@ -84,6 +84,12 @@ export default function Home() {
           >
             Explore v5-style-pass
           </a>
+          <a
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[#1A6B6D] px-5 text-white transition-colors hover:bg-[#145555] md:w-auto"
+            href="/v6-coastal-editorial"
+          >
+            Explore v6-coastal-editorial
+          </a>
         </div>
       </main>
     </div>
